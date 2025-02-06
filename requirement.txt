@@ -2,7 +2,6 @@ pandas
 huggingface-hub==0.28.1
 faiss-gpu==1.7.2
 faiss-cpu==1.7.2
-faiss-cpu==1.7.2
 streamlit==1.21.0
 numpy==1.23.5
 fitz==1.18.0
