@@ -8,6 +8,9 @@ from langchain_groq import ChatGroq
 from langchain.embeddings import HuggingFaceEmbeddings
 from dotenv import load_dotenv
 
+# Install faiss via pip if not already installed
+os.system('pip install faiss-cpu')
+
 # Load API keys
 load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
